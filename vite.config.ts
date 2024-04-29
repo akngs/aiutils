@@ -5,5 +5,11 @@ export default defineConfig({
   plugins: [sveltekit()],
   test: {
     include: ['src/**/*.{test,spec}.{js,ts}'],
+    globals: true,
+  },
+  server: {
+    watch: {
+      ignored: ['**/node_modules/**', '**/.git/**', '.svelte-kit/**', '.vscode/**'],
+    },
   },
 })

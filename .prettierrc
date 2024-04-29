@@ -4,7 +4,7 @@
   "singleQuote": true,
   "trailingComma": "all",
   "semi": false,
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "printWidth": 120,
   "endOfLine": "auto",
   "svelteIndentScriptAndStyle": false,
